@@ -193,7 +193,7 @@
     padding-top: 15px;
 }
 
-@media screen (max-width: 375px) {
+@media screen (min-width: 320px) {
     .container {
       display: flex;
       flex-direction: column;
