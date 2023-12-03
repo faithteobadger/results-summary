@@ -2,7 +2,7 @@
 
 .container {
     height: auto;
-    width: 600px;
+    width: 375px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,6 @@
     margin-top: 50px;
     padding: 70px 0;
     font-family: 'Hanken Grotesk';
-    overflow: hidden;
 }
 
 
