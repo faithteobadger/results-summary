@@ -1,0 +1,194 @@
+
+
+.container {
+    height: auto;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 70px 0;
+    font-family: 'Hanken Grotesk';
+}
+
+
+.results {
+    padding: 20px 10px;
+    color: white;
+    border-radius: 25px;
+    background-image: linear-gradient(rgb(119, 119, 239) , rgb(47, 0, 255));
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+.summary{
+    padding: 20px 10px;
+    border-radius: 25px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+.littletabs {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.yourresult {
+    font-size: 20px;
+    opacity: 70%;
+}
+
+.yourscore {
+    background-image: linear-gradient(  rgba(47, 0, 255, 0.676), rgba(75, 75, 238, 0.607));
+    height: 130px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 54px;
+}
+
+.of100 {
+    opacity: 70%;
+    font-size: 16px;
+}
+
+.great {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 25px;
+    font-size: 25px;
+}
+
+.higher {
+    text-align: center;
+    padding-top: 15px;
+    opacity: 70%;
+    font-size: 16px;
+}
+
+.yoursummary {
+    width: 250px;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.reaction {
+    background-color: rgba(255, 182, 193, 0.251);
+    width: 250px;
+    height: 40px ;
+    border-radius: 5px;
+    color: rgb(210, 99, 116);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.reactionscore {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: black;
+}
+
+.reactionhundred {
+    opacity: 50%
+}
+
+
+.memory {
+    background-color: rgba(255, 229, 182, 0.251);
+    width: 250px;
+    height: 40px ;
+    border-radius: 5px;
+    color: rgb(210, 184, 99);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.memoryscore {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: black;
+}
+
+.memoryhundred {
+    opacity: 50%;
+}
+
+.verbal {
+    background-color: rgba(182, 255, 208, 0.251);
+    width: 250px;
+    height: 40px ;
+    border-radius: 5px;
+    color: rgb(99, 210, 142);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.verbalscore {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: black;
+}
+
+.verbalhundred {
+    opacity: 50%;
+}
+
+.visual {
+    background-color: rgba(191, 182, 255, 0.251);
+    width: 250px;
+    height: 40px ;
+    border-radius: 5px;
+    color: rgb(99, 105, 210);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.visualscore {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: black;
+}
+
+.visualhundred {
+    opacity: 50%;
+}
+
+.continuebutton {
+    color: white;
+    text-align: center;
+    background-color: rgb(52, 52, 79);
+    width: 275px;
+    height: 35px ;
+    border-radius: 30px;
+    padding-top: 15px;
+}
